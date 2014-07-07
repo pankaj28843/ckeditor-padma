@@ -105,14 +105,17 @@
         Unicode.initialize();
         Transformer.initialize();
 
-        window.convert_krutidev_to_unicode = function (input_text) {
+        window.convert_krutidev_to_unicode = function(input_text) {
             var transformer = Transformer.createTransformer(Transformer.method_DynFonts, Transformer.method_Unicode);
             transformer.setDynamicFontByName(Krutidev.fontFace);
             return transformer.convert(input_text);
         }
 
-          CKEDITOR.plugins.addExternal('padma',window.location.pathname+'padma/plugin.js');
-
+        var current_path = window.location.pathname;
+        if (current_path[current_path.length - 1] !== "/") {
+            current_path += "/";
+        }
+        CKEDITOR.plugins.addExternal('padma', current_path + 'padma/plugin.js');
 
         CKEDITOR.replace('editor', {
             // Load the padma plugin.
