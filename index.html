@@ -1,0 +1,126 @@
+<html>
+
+<head>
+    <title>CKEDITOR - Padma : Transformer for Indic Scripts</title>
+</head>
+
+<body>
+    <div>
+        <textarea name="editor" id="editor" cols="80" rows="10">
+        </textarea>
+    </div>
+    <script src="https://cdn.ckeditor.com/4.4.2/full/ckeditor.js"></script>
+    <script type="text/javascript" src="padmajs/encodings/Common/Padma.js"></script>
+    <script type="text/javascript" src="padmajs/encodings/Common/ISCII.js"></script>
+    <script type="text/javascript" src="padmajs/encodings/Common/ITRANS.js"></script>
+    <script type="text/javascript" src="padmajs/encodings/Common/Syllable.js"></script>
+    <script type="text/javascript" src="padmajs/encodings/Common/Unicode/Shared.js"></script>
+
+
+    <script type="text/javascript" src="padmajs/encodings/Telugu/Telugu.js"></script>
+    <script type="text/javascript" src="padmajs/encodings/Telugu/RTS.js"></script>
+    <script type="text/javascript" src="padmajs/encodings/Telugu/Eenadu.js"></script>
+    <script type="text/javascript" src="padmajs/encodings/Telugu/ShreeTel0900.js"></script>
+    <script type="text/javascript" src="padmajs/encodings/Telugu/Hemalatha.js"></script>
+    <script type="text/javascript" src="padmajs/encodings/Telugu/ShreeTel0902.js"></script>
+    <script type="text/javascript" src="padmajs/encodings/Telugu/Tikkana.js"></script>
+    <script type="text/javascript" src="padmajs/encodings/Telugu/Vaartha.js"></script>
+    <script type="text/javascript" src="padmajs/encodings/Telugu/TeluguLipi.js"></script>
+    <script type="text/javascript" src="padmajs/encodings/Telugu/TCSMith.js"></script>
+    <script type="text/javascript" src="padmajs/encodings/Telugu/TeluguFont.js"></script>
+    <script type="text/javascript" src="padmajs/encodings/Telugu/SuriTln.js"></script>
+    <script type="text/javascript" src="padmajs/encodings/Telugu/TLTTHemalatha.js"></script>
+    <script type="text/javascript" src="padmajs/encodings/Telugu/VikaasWebFont.js"></script>
+    <script type="text/javascript" src="padmajs/encodings/Telugu/VaarthaText.js"></script>
+    <script type="text/javascript" src="padmajs/encodings/Telugu/SHREE_0908W.js"></script>
+    <script type="text/javascript" src="padmajs/encodings/Malayalam/Malayalam.js"></script>
+    <script type="text/javascript" src="padmajs/encodings/Malayalam/Karthika.js"></script>
+    <script type="text/javascript" src="padmajs/encodings/Malayalam/Kairali.js"></script>
+    <script type="text/javascript" src="padmajs/encodings/Malayalam/Revathi.js"></script>
+    <script type="text/javascript" src="padmajs/encodings/Malayalam/Manorama.js"></script>
+    <script type="text/javascript" src="padmajs/encodings/Malayalam/Thoolika.js"></script>
+    <script type="text/javascript" src="padmajs/encodings/Malayalam/Panchami.js"></script>
+    <script type="text/javascript" src="padmajs/encodings/Malayalam/Matweb.js"></script>
+    <script type="text/javascript" src="padmajs/encodings/Malayalam/Kalakaumudi.js"></script>
+    <script type="text/javascript" src="padmajs/encodings/Malayalam/BWRevathi.js"></script>
+    <script type="text/javascript" src="padmajs/encodings/Tamil/Tamil.js"></script>
+    <script type="text/javascript" src="padmajs/encodings/Tamil/TAM.js"></script>
+    <script type="text/javascript" src="padmajs/encodings/Tamil/Vikatan.js"></script>
+    <script type="text/javascript" src="padmajs/encodings/Tamil/Kumudam.js"></script>
+    <script type="text/javascript" src="padmajs/encodings/Tamil/ShreeTam0802.js"></script>
+    <script type="text/javascript" src="padmajs/encodings/Tamil/ElangoTmlPanchali.js"></script>
+    <script type="text/javascript" src="padmajs/encodings/Tamil/TSCII.js"></script>
+    <script type="text/javascript" src="padmajs/encodings/Tamil/TAB.js"></script>
+    <script type="text/javascript" src="padmajs/encodings/Tamil/TSCII_Fonts.js"></script>
+    <script type="text/javascript" src="padmajs/encodings/Tamil/TamLfsKamban.js"></script>
+    <script type="text/javascript" src="padmajs/encodings/Devanagari/Devanagari.js"></script>
+    <script type="text/javascript" src="padmajs/encodings/Devanagari/Subak.js"></script>
+    <script type="text/javascript" src="padmajs/encodings/Devanagari/BEJA.js"></script>
+    <script type="text/javascript" src="padmajs/encodings/Devanagari/Bhaskar.js"></script>
+    <script type="text/javascript" src="padmajs/encodings/Devanagari/Jagran.js"></script>
+    <script type="text/javascript" src="padmajs/encodings/Devanagari/EPatrika.js"></script>
+    <script type="text/javascript" src="padmajs/encodings/Devanagari/Ujala.js"></script>
+    <script type="text/javascript" src="padmajs/encodings/Devanagari/Chanakya.js"></script>
+    <script type="text/javascript" src="padmajs/encodings/Devanagari/Shusha.js"></script>
+    <script type="text/javascript" src="padmajs/encodings/Devanagari/HTChanakya.js"></script>
+    <script type="text/javascript" src="padmajs/encodings/Devanagari/Shivaji.js"></script>
+    <script type="text/javascript" src="padmajs/encodings/Devanagari/Mithi.js"></script>
+    <script type="text/javascript" src="padmajs/encodings/Devanagari/Manjusha.js"></script>
+    <script type="text/javascript" src="padmajs/encodings/Devanagari/Kiran.js"></script>
+    <script type="text/javascript" src="padmajs/encodings/Devanagari/Pudhari.js"></script>
+    <script type="text/javascript" src="padmajs/encodings/Devanagari/Krutidev.js"></script>
+    <script type="text/javascript" src="padmajs/encodings/Devanagari/DV_TTGanesh.js"></script>
+    <script type="text/javascript" src="padmajs/encodings/Devanagari/DVW_TTGanesh.js"></script>
+    <script type="text/javascript" src="padmajs/encodings/Devanagari/MillenniumVarun.js"></script>
+    <script type="text/javascript" src="padmajs/encodings/Devanagari/MillenniumVarunWeb.js"></script>
+    <script type="text/javascript" src="padmajs/encodings/Gujarati/Gujarati.js"></script>
+    <script type="text/javascript" src="padmajs/encodings/Gujarati/Gopika.js"></script>
+    <script type="text/javascript" src="padmajs/encodings/Gujarati/Vakil.js"></script>
+    <script type="text/javascript" src="padmajs/encodings/Kannada/Kannada.js"></script>
+    <script type="text/javascript" src="padmajs/encodings/Kannada/Nandi.js"></script>
+    <script type="text/javascript" src="padmajs/encodings/Kannada/ShreeKan0850.js"></script>
+    <script type="text/javascript" src="padmajs/encodings/Bengali/Bengali.js"></script>
+    <script type="text/javascript" src="padmajs/encodings/Bengali/AabpBengali.js"></script>
+    <script type="text/javascript" src="padmajs/encodings/Bengali/AabpBengalix.js"></script>
+    <script type="text/javascript" src="padmajs/encodings/Bengali/AabpBengalixx.js"></script>
+    <script type="text/javascript" src="padmajs/encodings/Gurmukhi/Gurmukhi.js"></script>
+    <script type="text/javascript" src="padmajs/encodings/Gurmukhi/DrChatrik.js"></script>
+    <script type="text/javascript" src="padmajs/encodings/Bengali/AAADurga.js"></script>
+    <script type="text/javascript" src="padmajs/encodings/Bengali/AAADurgax.js"></script>
+    <script type="text/javascript" src="padmajs/encodings/Bengali/AAADurgaxx.js"></script>
+    <script type="text/javascript" src="padmajs/encodings/Tamil/Amudham.js"></script>
+    <script type="text/javascript" src="padmajs/encodings/Devanagari/Shree_Dev_0714.js"></script>
+
+    <script type="text/javascript" src="padmajs/parsers/parser.js"></script>
+    <script type="text/javascript" src="padmajs/parsers/RTSParser.js"></script>
+    <script type="text/javascript" src="padmajs/parsers/ITRANSParser.js"></script>
+    <script type="text/javascript" src="padmajs/parsers/DynamicFontParser.js"></script>
+
+    <script type="text/javascript" src="padmajs/encodings/Common/Unicode/Unicode.js"></script>
+
+    <script type="text/javascript" src="padmajs/transformers/Transformer.js"></script>
+    <script type="text/javascript" src="padmajs/transformers/RTSTransformer.js"></script>
+    <script type="text/javascript">
+    (function() {
+        Unicode.initialize();
+        Transformer.initialize();
+
+        window.convert_krutidev_to_unicode = function (input_text) {
+            var transformer = Transformer.createTransformer(Transformer.method_DynFonts, Transformer.method_Unicode);
+            transformer.setDynamicFontByName(Krutidev.fontFace);
+            return transformer.convert(input_text);
+        }
+
+          CKEDITOR.plugins.addExternal('padma',window.location.pathname+'padma/plugin.js');
+
+
+        CKEDITOR.replace('editor', {
+            // Load the padma plugin.
+            extraPlugins: 'padma'
+        });
+
+    })();
+    </script>
+</body>
+
+</html>
